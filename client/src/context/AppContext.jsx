@@ -1,6 +1,5 @@
 import { createContext, useContext, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { dummyUserData, dummyChats } from "../assets/assets";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 
